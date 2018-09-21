@@ -1,0 +1,53 @@
+3/10/2014 9:42:21 AM  Sent:     <ENQ>
+3/10/2014 9:42:21 AM  Received: <ACK>
+3/10/2014 9:42:21 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140310094221<CR><ETX>F5<CR><LF>
+3/10/2014 9:42:21 AM  Received: <ACK>
+3/10/2014 9:42:21 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+3/10/2014 9:42:22 AM  Received: <ACK>
+3/10/2014 9:42:22 AM  Sent:     <STX>3O|1|701|701|^^^84^RFn^20|R||||||||||||||||||||X<CR><ETX>63<CR><LF>
+3/10/2014 9:42:22 AM  Received: <ACK>
+3/10/2014 9:42:22 AM  Sent:     <STX>4R|1|^^^84^RFn^20^^F|9.88|IU/ml|0 TO 1E+30 IU/ml|L||R||||20140310092129<CR><ETX>FD<CR><LF>
+3/10/2014 9:42:22 AM  Received: <ACK>
+3/10/2014 9:42:22 AM  Sent:     <STX>5C|1|I|Unknown result flag. (ResultFlag = 257)|G<CR><ETX>55<CR><LF>
+3/10/2014 9:42:22 AM  Received: <ACK>
+3/10/2014 9:42:22 AM  Sent:     <STX>6P|2|||||<CR><ETX>B0<CR><LF>
+3/10/2014 9:42:23 AM  Received: <ACK>
+3/10/2014 9:42:23 AM  Sent:     <STX>7O|1|702|702|^^^85^ASLn^400|R||||||||||||||||||||F<CR><ETX>D2<CR><LF>
+3/10/2014 9:42:23 AM  Received: <ACK>
+3/10/2014 9:42:23 AM  Sent:     <STX>0R|1|^^^85^ASLn^400^^F|160|IU/ml|0 TO 1E+30 IU/ml|||R||||20140310092220<CR><ETX>E0<CR><LF>
+3/10/2014 9:42:23 AM  Received: <ACK>
+3/10/2014 9:42:23 AM  Sent:     <STX>1P|3|||||<CR><ETX>AC<CR><LF>
+3/10/2014 9:42:23 AM  Received: <ACK>
+3/10/2014 9:42:23 AM  Sent:     <STX>2O|1|703|703|^^^21^IgGU^1|R||||||||||||||||||||X<CR><ETX>72<CR><LF>
+3/10/2014 9:42:24 AM  Received: <ACK>
+3/10/2014 9:42:24 AM  Sent:     <STX>3R|1|^^^21^IgGU^1^^F|3.25|mg/l|0 TO 9.6 mg/l|L||R||||20140310092244<CR><ETX>22<CR><LF>
+3/10/2014 9:42:24 AM  Received: <ACK>
+3/10/2014 9:42:24 AM  Sent:     <STX>4C|1|I|Unknown result flag. (ResultFlag = 257)|G<CR><ETX>54<CR><LF>
+3/10/2014 9:42:24 AM  Received: <ACK>
+3/10/2014 9:42:24 AM  Sent:     <STX>5O|2|703|703|^^^26^TRFU^1|R||||||||||||||||||||X<CR><ETX>70<CR><LF>
+3/10/2014 9:42:24 AM  Received: <ACK>
+3/10/2014 9:42:25 AM  Sent:     <STX>6R|1|^^^26^TRFU^1^^F|2.41|mg/l|0 TO 1.9 mg/l|L||R||||20140310092309<CR><ETX>19<CR><LF>
+3/10/2014 9:42:25 AM  Received: <ACK>
+3/10/2014 9:42:25 AM  Sent:     <STX>7C|1|I|Unknown result flag. (ResultFlag = 257)|G<CR><ETX>57<CR><LF>
+3/10/2014 9:42:25 AM  Received: <ACK>
+3/10/2014 9:42:25 AM  Sent:     <STX>0O|3|703|703|^^^27^ALBU^1|R||||||||||||||||||||X<CR><ETX>50<CR><LF>
+3/10/2014 9:42:25 AM  Received: <ACK>
+3/10/2014 9:42:25 AM  Sent:     <STX>1R|1|^^^27^ALBU^1^^F|2.36|mg/l|0 TO 30 mg/l|L||R||||20140310093221<CR><ETX>C1<CR><LF>
+3/10/2014 9:42:25 AM  Received: <ACK>
+3/10/2014 9:42:26 AM  Sent:     <STX>2C|1|I|Unknown result flag. (ResultFlag = 257)|G<CR><ETX>52<CR><LF>
+3/10/2014 9:42:26 AM  Received: <ACK>
+3/10/2014 9:42:26 AM  Sent:     <STX>3O|4|703|703|^^^27^ALBU^5|R||||||||||||||||||||X<CR><ETX>58<CR><LF>
+3/10/2014 9:42:26 AM  Received: <ACK>
+3/10/2014 9:42:26 AM  Sent:     <STX>4R|1|^^^27^ALBU^5^^F|11.8|mg/l|0 TO 30 mg/l|L||P||||20140310092424<CR><ETX>C9<CR><LF>
+3/10/2014 9:42:26 AM  Received: <ACK>
+3/10/2014 9:42:27 AM  Sent:     <STX>5C|1|I|Unknown result flag. (ResultFlag = 8449)|G<CR><ETX>90<CR><LF>
+3/10/2014 9:42:27 AM  Received: <ACK>
+3/10/2014 9:42:28 AM  Sent:     <STX>6O|5|703|703|^^^73^b2MU^100|R||||||||||||||||||||X<CR><ETX>CB<CR><LF>
+3/10/2014 9:42:28 AM  Received: <ACK>
+3/10/2014 9:42:28 AM  Sent:     <STX>7R|1|^^^73^b2MU^100^^F|0.211|mg/l|0 TO .2 mg/l|L||R||||20140310092811<CR><ETX>64<CR><LF>
+3/10/2014 9:42:28 AM  Received: <ACK>
+3/10/2014 9:42:28 AM  Sent:     <STX>0C|1|I|Unknown result flag. (ResultFlag = 257)|G<CR><ETX>50<CR><LF>
+3/10/2014 9:42:28 AM  Received: <ACK>
+3/10/2014 9:42:28 AM  Sent:     <STX>1L|1<CR><ETX>3A<CR><LF>
+3/10/2014 9:42:28 AM  Received: <ACK>
+3/10/2014 9:42:29 AM  Sent:     <EOT>

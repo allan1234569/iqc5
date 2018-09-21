@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pv_TextBrowser</class>
+ <widget class="QWidget" name="Pv_TextBrowser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>实验要求</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../Icon.qrc">
+    <normaloff>:/images/clipboard.png</normaloff>:/images/clipboard.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser"/>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

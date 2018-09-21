@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/add_big.png</file>
+        <file>images/clipboard.png</file>
+        <file>images/delete_big.png</file>
+        <file>images/Add_213px.png</file>
+        <file>images/Remove_213px.png</file>
+        <file>images/sign_check24px.png</file>
+        <file>images/triangle_48px.png</file>
+        <file>images/Error_24px.png</file>
+        <file>images/Error_16px.png</file>
+        <file>images/sign_check_16px.png</file>
+        <file>images/add.gif</file>
+        <file>images/add_big.gif</file>
+        <file>images/delete.gif</file>
+        <file>images/delete_big.gif</file>
+    </qresource>
+</RCC>

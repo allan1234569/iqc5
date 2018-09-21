@@ -1,0 +1,192 @@
+2/26/2014 9:27:19 AM  Info:     Connection configuration:
+                                   Port: Com1
+                                   BaudRate: 9600
+                                   Parity: None
+                                   Data bits: 8
+                                   Stop bits: 1
+                                   Handshake: None
+2/26/2014 9:27:19 AM  Info:     Start of protocol:ASTM 
+2/26/2014 9:47:36 AM  Sent:     <ENQ>
+2/26/2014 9:47:36 AM  Received: <ACK>
+2/26/2014 9:47:36 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226094736<CR><ETX>06<CR><LF>
+2/26/2014 9:47:37 AM  Received: <ACK>
+2/26/2014 9:47:37 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:47:37 AM  Received: <ACK>
+2/26/2014 9:47:37 AM  Sent:     <STX>3O|1|510|510|^^^1^IgG^400|R||||||||||||||||||||F<CR><ETX>35<CR><LF>
+2/26/2014 9:47:37 AM  Received: <ACK>
+2/26/2014 9:47:37 AM  Sent:     <STX>4R|1|^^^1^IgG^400^^F|13.8|g/l|7 TO 16 g/l|||F||||20140226094733<CR><ETX>AB<CR><LF>
+2/26/2014 9:47:37 AM  Received: <ACK>
+2/26/2014 9:47:38 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:47:38 AM  Received: <ACK>
+2/26/2014 9:47:38 AM  Sent:     <EOT>
+2/26/2014 9:48:01 AM  Sent:     <ENQ>
+2/26/2014 9:48:01 AM  Received: <ACK>
+2/26/2014 9:48:01 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226094801<CR><ETX>FF<CR><LF>
+2/26/2014 9:48:02 AM  Received: <ACK>
+2/26/2014 9:48:02 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:48:02 AM  Received: <ACK>
+2/26/2014 9:48:02 AM  Sent:     <STX>3O|1|510|510|^^^2^IgA^20|R||||||||||||||||||||F<CR><ETX>FE<CR><LF>
+2/26/2014 9:48:02 AM  Received: <ACK>
+2/26/2014 9:48:02 AM  Sent:     <STX>4R|1|^^^2^IgA^20^^F|1.02|g/l|.7 TO 4 g/l|||F||||20140226094759<CR><ETX>6E<CR><LF>
+2/26/2014 9:48:02 AM  Received: <ACK>
+2/26/2014 9:48:03 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:48:03 AM  Received: <ACK>
+2/26/2014 9:48:03 AM  Sent:     <EOT>
+2/26/2014 9:48:50 AM  Sent:     <ENQ>
+2/26/2014 9:48:50 AM  Received: <ACK>
+2/26/2014 9:48:50 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226094850<CR><ETX>03<CR><LF>
+2/26/2014 9:48:50 AM  Received: <ACK>
+2/26/2014 9:48:51 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:48:51 AM  Received: <ACK>
+2/26/2014 9:48:51 AM  Sent:     <STX>3O|1|510|510|^^^4^C3^20|R||||||||||||||||||||F<CR><ETX>85<CR><LF>
+2/26/2014 9:48:51 AM  Received: <ACK>
+2/26/2014 9:48:51 AM  Sent:     <STX>4R|1|^^^4^C3^20^^F|1.14|g/l|.9 TO 1.8 g/l|||F||||20140226094847<CR><ETX>5B<CR><LF>
+2/26/2014 9:48:51 AM  Received: <ACK>
+2/26/2014 9:48:52 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:48:52 AM  Received: <ACK>
+2/26/2014 9:48:52 AM  Sent:     <EOT>
+2/26/2014 9:49:04 AM  Sent:     <ENQ>
+2/26/2014 9:49:04 AM  Received: <ACK>
+2/26/2014 9:49:04 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226094904<CR><ETX>03<CR><LF>
+2/26/2014 9:49:04 AM  Received: <ACK>
+2/26/2014 9:49:04 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:49:04 AM  Received: <ACK>
+2/26/2014 9:49:04 AM  Sent:     <STX>3O|1|510|510|^^^3^IgM^20|R||||||||||||||||||||F<CR><ETX>0B<CR><LF>
+2/26/2014 9:49:05 AM  Received: <ACK>
+2/26/2014 9:49:05 AM  Sent:     <STX>4R|1|^^^3^IgM^20^^F|1.38|g/l|.4 TO 2.3 g/l|||F||||20140226094901<CR><ETX>D5<CR><LF>
+2/26/2014 9:49:05 AM  Received: <ACK>
+2/26/2014 9:49:05 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:49:05 AM  Received: <ACK>
+2/26/2014 9:49:05 AM  Sent:     <EOT>
+2/26/2014 9:49:15 AM  Sent:     <ENQ>
+2/26/2014 9:49:15 AM  Received: <ACK>
+2/26/2014 9:49:15 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226094915<CR><ETX>05<CR><LF>
+2/26/2014 9:49:15 AM  Received: <ACK>
+2/26/2014 9:49:15 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:49:15 AM  Received: <ACK>
+2/26/2014 9:49:16 AM  Sent:     <STX>3O|1|510|510|^^^5^C4^20|R||||||||||||||||||||F<CR><ETX>87<CR><LF>
+2/26/2014 9:49:16 AM  Received: <ACK>
+2/26/2014 9:49:16 AM  Sent:     <STX>4R|1|^^^5^C4^20^^F|0.253|g/l|.1 TO .4 g/l|||F||||20140226094912<CR><ETX>4D<CR><LF>
+2/26/2014 9:49:16 AM  Received: <ACK>
+2/26/2014 9:49:16 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:49:17 AM  Received: <ACK>
+2/26/2014 9:49:17 AM  Sent:     <EOT>
+2/26/2014 9:50:05 AM  Sent:     <ENQ>
+2/26/2014 9:50:05 AM  Received: <ACK>
+2/26/2014 9:50:05 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095005<CR><ETX>FC<CR><LF>
+2/26/2014 9:50:05 AM  Received: <ACK>
+2/26/2014 9:50:05 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:50:05 AM  Received: <ACK>
+2/26/2014 9:50:05 AM  Sent:     <STX>3O|1|511|511|^^^1^IgG^400|R||||||||||||||||||||F<CR><ETX>37<CR><LF>
+2/26/2014 9:50:06 AM  Received: <ACK>
+2/26/2014 9:50:06 AM  Sent:     <STX>4R|1|^^^1^IgG^400^^F|13.1|g/l|7 TO 16 g/l|||F||||20140226095002<CR><ETX>9A<CR><LF>
+2/26/2014 9:50:06 AM  Received: <ACK>
+2/26/2014 9:50:06 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:50:06 AM  Received: <ACK>
+2/26/2014 9:50:06 AM  Sent:     <EOT>
+2/26/2014 9:50:30 AM  Sent:     <ENQ>
+2/26/2014 9:50:30 AM  Received: <ACK>
+2/26/2014 9:50:30 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095030<CR><ETX>FA<CR><LF>
+2/26/2014 9:50:31 AM  Received: <ACK>
+2/26/2014 9:50:31 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:50:31 AM  Received: <ACK>
+2/26/2014 9:50:31 AM  Sent:     <STX>3O|1|511|511|^^^2^IgA^20|R||||||||||||||||||||F<CR><ETX>00<CR><LF>
+2/26/2014 9:50:31 AM  Received: <ACK>
+2/26/2014 9:50:31 AM  Sent:     <STX>4R|1|^^^2^IgA^20^^F|1.23|g/l|.7 TO 4 g/l|||F||||20140226095028<CR><ETX>67<CR><LF>
+2/26/2014 9:50:31 AM  Received: <ACK>
+2/26/2014 9:50:32 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:50:32 AM  Received: <ACK>
+2/26/2014 9:50:32 AM  Sent:     <EOT>
+2/26/2014 9:51:34 AM  Sent:     <ENQ>
+2/26/2014 9:51:34 AM  Received: <ACK>
+2/26/2014 9:51:34 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095134<CR><ETX>FF<CR><LF>
+2/26/2014 9:51:34 AM  Received: <ACK>
+2/26/2014 9:51:34 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:51:34 AM  Received: <ACK>
+2/26/2014 9:51:34 AM  Sent:     <STX>3O|1|511|511|^^^4^C3^20|R||||||||||||||||||||F<CR><ETX>87<CR><LF>
+2/26/2014 9:51:35 AM  Received: <ACK>
+2/26/2014 9:51:35 AM  Sent:     <STX>4R|1|^^^4^C3^20^^F|1.21|g/l|.9 TO 1.8 g/l|||F||||20140226095131<CR><ETX>4C<CR><LF>
+2/26/2014 9:51:35 AM  Received: <ACK>
+2/26/2014 9:51:35 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:51:35 AM  Received: <ACK>
+2/26/2014 9:51:35 AM  Sent:     <EOT>
+2/26/2014 9:51:45 AM  Sent:     <ENQ>
+2/26/2014 9:51:45 AM  Received: <ACK>
+2/26/2014 9:51:45 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095145<CR><ETX>01<CR><LF>
+2/26/2014 9:51:45 AM  Received: <ACK>
+2/26/2014 9:51:45 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:51:45 AM  Received: <ACK>
+2/26/2014 9:51:45 AM  Sent:     <STX>3O|1|511|511|^^^3^IgM^20|R||||||||||||||||||||F<CR><ETX>0D<CR><LF>
+2/26/2014 9:51:46 AM  Received: <ACK>
+2/26/2014 9:51:46 AM  Sent:     <STX>4R|1|^^^3^IgM^20^^F|0.962|g/l|.4 TO 2.3 g/l|||F||||20140226095142<CR><ETX>08<CR><LF>
+2/26/2014 9:51:46 AM  Received: <ACK>
+2/26/2014 9:51:46 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:51:47 AM  Received: <ACK>
+2/26/2014 9:51:47 AM  Sent:     <EOT>
+2/26/2014 9:51:59 AM  Sent:     <ENQ>
+2/26/2014 9:51:59 AM  Received: <ACK>
+2/26/2014 9:52:00 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095159<CR><ETX>06<CR><LF>
+2/26/2014 9:52:00 AM  Received: <ACK>
+2/26/2014 9:52:00 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:52:00 AM  Received: <ACK>
+2/26/2014 9:52:00 AM  Sent:     <STX>3O|1|511|511|^^^5^C4^20|R||||||||||||||||||||F<CR><ETX>89<CR><LF>
+2/26/2014 9:52:00 AM  Received: <ACK>
+2/26/2014 9:52:00 AM  Sent:     <STX>4R|1|^^^5^C4^20^^F|0.243|g/l|.1 TO .4 g/l|||F||||20140226095157<CR><ETX>4E<CR><LF>
+2/26/2014 9:52:00 AM  Received: <ACK>
+2/26/2014 9:52:01 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:52:01 AM  Received: <ACK>
+2/26/2014 9:52:01 AM  Sent:     <EOT>
+2/26/2014 9:53:00 AM  Sent:     <ENQ>
+2/26/2014 9:53:00 AM  Received: <ACK>
+2/26/2014 9:53:00 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095300<CR><ETX>FA<CR><LF>
+2/26/2014 9:53:01 AM  Received: <ACK>
+2/26/2014 9:53:01 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:53:01 AM  Received: <ACK>
+2/26/2014 9:53:01 AM  Sent:     <STX>3O|1|512|512|^^^1^IgG^400|R||||||||||||||||||||F<CR><ETX>39<CR><LF>
+2/26/2014 9:53:01 AM  Received: <ACK>
+2/26/2014 9:53:01 AM  Sent:     <STX>4R|1|^^^1^IgG^400^^F|10.8|g/l|7 TO 16 g/l|||F||||20140226095258<CR><ETX>AB<CR><LF>
+2/26/2014 9:53:01 AM  Received: <ACK>
+2/26/2014 9:53:02 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:53:02 AM  Received: <ACK>
+2/26/2014 9:53:02 AM  Sent:     <EOT>
+2/26/2014 9:53:26 AM  Sent:     <ENQ>
+2/26/2014 9:53:26 AM  Received: <ACK>
+2/26/2014 9:53:26 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095326<CR><ETX>02<CR><LF>
+2/26/2014 9:53:26 AM  Received: <ACK>
+2/26/2014 9:53:26 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:53:26 AM  Received: <ACK>
+2/26/2014 9:53:26 AM  Sent:     <STX>3O|1|512|512|^^^2^IgA^20|R||||||||||||||||||||F<CR><ETX>02<CR><LF>
+2/26/2014 9:53:26 AM  Received: <ACK>
+2/26/2014 9:53:27 AM  Sent:     <STX>4R|1|^^^2^IgA^20^^F|2.68|g/l|.7 TO 4 g/l|||F||||20140226095323<CR><ETX>6F<CR><LF>
+2/26/2014 9:53:27 AM  Received: <ACK>
+2/26/2014 9:53:27 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:53:27 AM  Received: <ACK>
+2/26/2014 9:53:27 AM  Sent:     <EOT>
+2/26/2014 9:54:29 AM  Sent:     <ENQ>
+2/26/2014 9:54:29 AM  Received: <ACK>
+2/26/2014 9:54:29 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095429<CR><ETX>06<CR><LF>
+2/26/2014 9:54:29 AM  Received: <ACK>
+2/26/2014 9:54:29 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:54:29 AM  Received: <ACK>
+2/26/2014 9:54:29 AM  Sent:     <STX>3O|1|512|512|^^^4^C3^20|R||||||||||||||||||||X<CR><ETX>9B<CR><LF>
+2/26/2014 9:54:29 AM  Received: <ACK>
+2/26/2014 9:54:30 AM  Sent:     <STX>4R|1|^^^4^C3^20^^F|0.844|g/l|.9 TO 1.8 g/l|||F||||20140226095426<CR><ETX>8F<CR><LF>
+2/26/2014 9:54:30 AM  Received: <ACK>
+2/26/2014 9:54:30 AM  Sent:     <STX>5C|1|I|Unknown result flag. (ResultFlag = 16)|G<CR><ETX>1E<CR><LF>
+2/26/2014 9:54:30 AM  Received: <ACK>
+2/26/2014 9:54:30 AM  Sent:     <STX>6L|1<CR><ETX>3F<CR><LF>
+2/26/2014 9:54:31 AM  Received: <ACK>
+2/26/2014 9:54:31 AM  Sent:     <EOT>
+2/26/2014 9:54:52 AM  Sent:     <ENQ>
+2/26/2014 9:54:52 AM  Received: <ACK>
+2/26/2014 9:54:52 AM  Sent:     <STX>1H|\^&|||^010000^^H1P1O1R1C1Q1L1^0.9.4|||||||P|1|20140226095452<CR><ETX>02<CR><LF>
+2/26/2014 9:54:52 AM  Received: <ACK>
+2/26/2014 9:54:52 AM  Sent:     <STX>2P|1|||||<CR><ETX>AB<CR><LF>
+2/26/2014 9:54:53 AM  Received: <ACK>
+2/26/2014 9:54:53 AM  Sent:     <STX>3O|1|512|512|^^^5^C4^20|R||||||||||||||||||||F<CR><ETX>8B<CR><LF>
+2/26/2014 9:54:53 AM  Received: <ACK>
+2/26/2014 9:54:53 AM  Sent:     <STX>4R|1|^^^5^C4^20^^F|0.217|g/l|.1 TO .4 g/l|||F||||20140226095450<CR><ETX>4B<CR><LF>
+2/26/2014 9:54:53 AM  Received: <ACK>
+2/26/2014 9:54:54 AM  Sent:     <STX>5L|1<CR><ETX>3E<CR><LF>
+2/26/2014 9:54:54 AM  Received: <ACK>
+2/26/2014 9:54:54 AM  Sent:     <EOT>

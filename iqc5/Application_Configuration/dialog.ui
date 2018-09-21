@@ -1,0 +1,3095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Application Configuration</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>580</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>411</width>
+      <height>370</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page_1">
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>410</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>390</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;通过仪器名称和序列号，解析程序可以识别实验室内的仪器&lt;/p&gt;&lt;p&gt;切记：&lt;span style=&quot; color:#ff0000;&quot;&gt;同一安装地点下的仪器名称不可重复，否则将会导致数据导入到其他同名仪器中&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::LinksAccessibleByMouse</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>410</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>仪器名称：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>安装地点：</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_DeviceName">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>100</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_InstallPlace">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>50</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>70</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>序列号：</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>150</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>410</width>
+        <height>250</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QRadioButton" name="radioButton_SerialComm">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>130</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>串口/USB口串口通信</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_SocketComm">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>130</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>网络通信</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_Log">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>130</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>访问日志</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>480</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>80</y>
+         <width>480</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>190</y>
+         <width>480</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_Database">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>129</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>读数据库</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>140</y>
+         <width>240</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>410</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>390</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;通信方式将决定如何获取到仪器的检验结果，如果仪器主机或者仪器本身与本机有串口线或者USB线连接，请选择串口/USB串口通信，那么软件将会通过串口来获取到检验结果；如果仪器或者仪器主机与本机用是网络线连，请选择网络通信，那么软件将会通过网络端口获取到检验结果；如果本机与仪器无需通信线，可以直接访问数据库文件，请选择读取数据库，那么软件读取指定的数据库文件来获取检验结果；否则请选择访问日志，通过解析日志文件来获取所需要的检验结果。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QStackedWidget" name="stackedWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>430</width>
+        <height>370</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="page_serialPort">
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>410</width>
+          <height>370</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>410</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>391</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;下面是串口通信时所需参数，请参考仪器的通信协议进行正确的配置&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>110</y>
+           <width>410</width>
+           <height>260</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>60</y>
+            <width>54</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>波特率：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>180</y>
+            <width>54</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>检验位：</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_DataBits">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>100</y>
+            <width>100</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QComboBox" name="comboBox_BuadRate">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>60</y>
+            <width>100</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>75</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>110</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>134</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>150</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>300</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>600</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1800</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4800</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>9600</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57600</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>76800</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>115200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>128000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>256000</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>54</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>数据位：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>54</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>端口号：</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_StopBits">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>140</y>
+            <width>100</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1.5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>140</y>
+            <width>54</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>停止位：</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_PortName">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>20</y>
+            <width>100</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>10</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>11</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>12</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>13</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>14</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>15</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>16</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>17</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>18</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>19</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>20</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>21</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>22</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>23</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>25</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>26</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>27</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>28</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>29</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>30</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>31</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>32</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>33</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>34</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>35</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>36</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>37</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>39</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>40</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>41</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>42</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>43</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>44</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>45</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>46</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>47</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>48</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>49</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>51</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>52</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>53</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>54</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>55</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>58</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>59</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>61</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>62</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>63</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>64</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>65</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>66</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>67</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>68</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>69</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>70</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>71</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>72</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>73</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>74</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>75</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>76</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>77</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>78</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>79</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>81</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>82</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>83</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>84</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>85</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>86</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>87</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>88</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>89</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>90</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>91</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>92</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>93</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>94</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>95</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>96</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>97</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>98</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>99</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>101</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>102</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>103</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>104</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>105</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>106</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>107</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>108</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>109</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>110</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>111</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>112</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>113</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>114</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>115</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>116</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>117</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>118</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>119</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>121</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>122</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>123</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>124</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>126</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>127</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>128</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>129</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>130</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>131</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>132</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>133</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>134</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>135</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>136</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>137</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>138</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>139</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>140</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>141</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>142</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>143</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>144</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>145</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>146</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>147</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>148</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>150</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>151</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>152</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>153</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>154</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>155</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>156</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>157</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>158</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>159</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>160</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>161</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>162</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>163</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>164</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>165</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>166</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>167</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>168</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>169</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>170</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>171</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>172</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>173</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>174</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>175</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>176</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>177</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>178</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>179</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>180</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>181</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>182</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>183</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>184</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>185</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>186</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>187</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>188</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>189</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>190</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>191</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>192</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>193</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>194</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>195</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>196</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>197</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>198</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>199</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>201</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>202</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>203</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>204</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>205</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>206</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>207</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>208</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>209</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>210</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>211</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>212</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>213</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>214</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>215</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>216</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>217</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>218</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>219</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>220</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>221</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>222</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>223</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>224</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>225</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>226</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>227</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>228</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>229</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>230</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>231</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>232</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>233</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>234</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>235</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>236</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>237</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>238</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>239</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>240</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>241</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>242</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>243</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>244</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>245</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>246</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>247</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>248</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>249</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>250</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>251</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>252</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>253</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>254</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>255</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QWidget" name="widget_6" native="true">
+          <property name="geometry">
+           <rect>
+            <x>-550</x>
+            <y>-40</y>
+            <width>410</width>
+            <height>250</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_Parity">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>180</y>
+            <width>100</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>EVEN</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ODD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SPACE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MARK</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>220</y>
+            <width>90</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string> 数据采集间隔：</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>220</y>
+            <width>90</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>200</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>400</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>500</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>800</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>5000</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>220</y>
+            <width>20</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>每</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>220</y>
+            <width>100</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>毫秒 采集一次数据</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_socket">
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>410</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>410</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>请根据实际情况正确选择通信方式</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_16">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>110</y>
+          <width>410</width>
+          <height>260</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <widget class="QGroupBox" name="groupBox_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>190</width>
+           <height>80</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>服务端/客户端</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+         <widget class="QRadioButton" name="radioButton_Clietnt">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>80</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>客户端</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_Server">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>50</y>
+            <width>70</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>服务端</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_18">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>10</y>
+           <width>180</width>
+           <height>80</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>协议</string>
+         </property>
+         <widget class="QRadioButton" name="radioButton_Tcp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>89</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>TCP协议</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radioButton_Udp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>50</y>
+            <width>89</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>UDP协议</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_19">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>391</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>详细参数</string>
+         </property>
+         <widget class="QLineEdit" name="lineEdit_IpPort">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>50</y>
+            <width>150</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>60</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>端口号：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>50</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>IP地址：</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_IpAdress">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>100</y>
+            <width>150</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_database">
+       <widget class="QGroupBox" name="groupBox_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>410</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>410</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>读取数据库的方式是通过直接读仪器的本地数据库的数据的方式来获取数据，请正确选择数据库路径</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_21">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>110</y>
+          <width>410</width>
+          <height>260</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_DataDbPath">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>110</y>
+           <width>290</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_SelectDataDb">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>110</y>
+           <width>30</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>110</y>
+           <width>54</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>数据路径：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_36">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>150</y>
+           <width>54</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>用户名：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>190</y>
+           <width>54</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>密码 ：</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>150</y>
+           <width>140</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>190</y>
+           <width>140</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_log">
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>410</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>410</width>
+           <height>110</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>访问日志的方式是通过读取仪器保存在本地的数据文件来解析出结果，请正确选择其路径</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>110</y>
+          <width>410</width>
+          <height>260</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>54</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>日志路径：</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_LogPath">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>110</y>
+           <width>300</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="PushButton_SelectLogPath">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>110</y>
+           <width>30</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>410</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>411</width>
+         <height>110</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;通信程序通过读取通信程序配置文件来获取的通信方式，解析程序通过读取解析程序配置文件。&lt;/p&gt;&lt;p&gt;服务数据库可以使用本地SQLITE数据，也可使用MySQL数据库&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>410</width>
+        <height>260</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QGroupBox" name="groupBox_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>112</y>
+         <width>410</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>服务器数据库</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_SelectDbPath">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>50</y>
+          <width>30</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>60</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>数据库：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_ServerDb">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>290</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_LocalServer">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>89</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>本地数据库</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_RemoteServer">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>20</y>
+          <width>89</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>远程数据库</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Port">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>60</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>端口号：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_UserName">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>60</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>登录名：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Password">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>110</y>
+          <width>50</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>密码：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Port">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>80</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_UserName">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>110</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Password">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>110</y>
+          <width>113</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_15">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>410</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>配置路径</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_browse">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>80</y>
+          <width>30</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_UseDefaultPath">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>89</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>使用默认路径</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_OnlineIniPath">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>50</y>
+          <width>250</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_CustomPath">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>20</y>
+          <width>90</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>自定义路径</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>100</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>通信程序配置路径</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>100</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>解析程序配置路径</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_ParserIniPath">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>80</y>
+          <width>250</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>170</width>
+      <height>370</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>150</width>
+       <height>350</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(48, 221, 255);</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>60</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>选择通信方式</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>100</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>详情</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>140</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>汇总</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>60</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>60</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>50</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>50</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>50</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>50</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRaise">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>仪器设置</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>370</y>
+     <width>580</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(223, 223, 223);</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_PreStep">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>上一步</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_NextStep">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>下一步</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Cancel">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>取 消</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_save">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>保 存</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEdit_InstallPlace</tabstop>
+  <tabstop>lineEdit_DeviceName</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton_PreStep</tabstop>
+  <tabstop>pushButton_NextStep</tabstop>
+  <tabstop>pushButton_Cancel</tabstop>
+  <tabstop>comboBox_PortName</tabstop>
+  <tabstop>radioButton_Clietnt</tabstop>
+  <tabstop>radioButton_SerialComm</tabstop>
+  <tabstop>radioButton_SocketComm</tabstop>
+  <tabstop>radioButton_Log</tabstop>
+  <tabstop>toolButton_4</tabstop>
+  <tabstop>comboBox_DataBits</tabstop>
+  <tabstop>comboBox_StopBits</tabstop>
+  <tabstop>radioButton_Server</tabstop>
+  <tabstop>radioButton_Tcp</tabstop>
+  <tabstop>radioButton_Udp</tabstop>
+  <tabstop>lineEdit_IpPort</tabstop>
+  <tabstop>lineEdit_IpAdress</tabstop>
+  <tabstop>toolButton_3</tabstop>
+  <tabstop>toolButton_2</tabstop>
+  <tabstop>toolButton_1</tabstop>
+  <tabstop>radioButton_Database</tabstop>
+  <tabstop>comboBox_Parity</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>lineEdit_DataDbPath</tabstop>
+  <tabstop>pushButton_SelectDataDb</tabstop>
+  <tabstop>comboBox_BuadRate</tabstop>
+  <tabstop>pushButton_save</tabstop>
+  <tabstop>lineEdit_LogPath</tabstop>
+  <tabstop>PushButton_SelectLogPath</tabstop>
+  <tabstop>pushButton_SelectDbPath</tabstop>
+  <tabstop>lineEdit_ServerDb</tabstop>
+  <tabstop>radioButton_LocalServer</tabstop>
+  <tabstop>radioButton_RemoteServer</tabstop>
+  <tabstop>lineEdit_Port</tabstop>
+  <tabstop>lineEdit_UserName</tabstop>
+  <tabstop>lineEdit_Password</tabstop>
+  <tabstop>pushButton_browse</tabstop>
+  <tabstop>radioButton_UseDefaultPath</tabstop>
+  <tabstop>lineEdit_OnlineIniPath</tabstop>
+  <tabstop>radioButton_CustomPath</tabstop>
+  <tabstop>lineEdit_ParserIniPath</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

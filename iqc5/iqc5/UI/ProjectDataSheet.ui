@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProjectDataSheet</class>
+ <widget class="QWidget" name="ProjectDataSheet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>详细数据浏览</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Icon.qrc">
+    <normaloff>:/images/clipboard.png</normaloff>:/images/clipboard.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,7">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>250</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>项目列表</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="inputKeyword"/>
+      </item>
+      <item>
+       <widget class="QTreeWidget" name="treeWidget">
+        <property name="selectionMode">
+         <enum>QAbstractItemView::SingleSelection</enum>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+        <attribute name="headerVisible">
+         <bool>false</bool>
+        </attribute>
+        <column>
+         <property name="text">
+          <string/>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>详细数据</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::NoSelection</enum>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>true</bool>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>英文简称</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>中文简称</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>专业</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>亚专业</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>浓度水平</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>检测次数</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>质控品</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>质控品批号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>试剂</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>试剂批号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>方法</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>仪器</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>结果</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>日期</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="export_Btn">
+           <property name="text">
+            <string>导 出</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="close_Btn">
+           <property name="text">
+            <string>关 闭</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>95</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

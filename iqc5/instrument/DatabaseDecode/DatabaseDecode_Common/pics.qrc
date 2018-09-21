@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/analysis_256px.png</file>
+        <file>pics/Analysis_512px.png</file>
+        <file>pics/error_72px.png</file>
+        <file>pics/error_141.512px.png</file>
+        <file>pics/analysis_128px.png</file>
+        <file>pics/Add_213px.png</file>
+        <file>pics/Remove_213px.png</file>
+    </qresource>
+</RCC>

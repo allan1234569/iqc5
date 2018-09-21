@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/network_error_256px.png</file>
+        <file>pics/network_idle_256px.png</file>
+        <file>pics/network_offline_256px.png</file>
+        <file>pics/network_receive_256px.png</file>
+        <file>pics/network_transmit_256px.png</file>
+        <file>pics/network_transmit_receive_256px.png</file>
+        <file>pics/dot_green_24px.png</file>
+        <file>pics/dot_red_24px.png</file>
+        <file>pics/computers_256px.png</file>
+    </qresource>
+</RCC>
